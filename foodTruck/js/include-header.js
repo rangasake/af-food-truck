@@ -1,4 +1,4 @@
-fetch('af-food-truck/foodTruck//header.html')
+fetch('af-food-truck/foodTruck/header.html')
   .then(response => {
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);
