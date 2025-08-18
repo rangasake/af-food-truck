@@ -454,7 +454,7 @@
         </div>
 
         <!-- Controls -->
-        <div class="mt-6 flex justify-center gap-3">
+        <!-- <div class="mt-6 flex justify-center gap-3">
           <button
             id="prevBtn"
             class="inline-flex items-center justify-center h-10 w-10 rounded-full border border-white/10 hover:border-gold-500/40 hover:text-gold-300 transition"
@@ -469,7 +469,7 @@
           >
             ›
           </button>
-        </div>
+        </div> -->
       </div>
     </section>
 
@@ -496,93 +496,88 @@
       </div>
     </footer>
 
-    <!-- Data + Scripts -->
-    <script>
-      // Scroll helper
-      function scrollToSection(id) {
-        document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
-      }
-
-      // Sample menu JSON data
-      const menuData = {
-        imgUrl:
-          "https://storage.googleapis.com/production-domaincom-2/832/1926832/gXEVjxox/72a9794be98c4afa87e79b31300c9be3",
-        popular: [
-          {
-            image:
-              "https://images.unsplash.com/photo-1694849789325-914b71ab4075?q=80&w=1200&auto=format&fit=crop",
-            title: "Indian Tiffins",
-          },
-          {
-            image:
-              "https://images.unsplash.com/photo-1512058564366-18510be2db19?q=80&w=1200&auto=format&fit=crop",
-            title: "Chinese Street Food",
-          },
-          {
-            image:
-              "https://plus.unsplash.com/premium_photo-1695297516710-854716c51121?q=80&w=1200&auto=format&fit=crop",
-            title: "Indian Street Food",
-          },
-          {
-            image:
-              "https://plus.unsplash.com/premium_photo-1695927470038-35a215e794f0?q=80&w=1200&auto=format&fit=crop",
-            title: "Milkshakes & More",
-          },
-        ],
-      };
-
-      // Populate Popular Items
-      const popularItemsContainer = document.getElementById("popular-items");
-      if (popularItemsContainer && menuData?.popular?.length) {
-        menuData.popular.forEach((item) => {
-          const card = document.createElement("article");
-          card.className =
-            "group relative rounded-xl overflow-hidden ring-1 ring-white/10 bg-ink-700/60 hover:ring-gold-500/30 transition shadow-2xl";
-          card.innerHTML = `
-            <div class="relative">
-              <img src="${item.image}" alt="${item.title}" class="w-full h-[260px] md:h-[340px] object-cover transition duration-500 group-hover:scale-[1.03]" />
-              <div class="absolute inset-0 bg-gradient-to-t from-ink-900/80 via-transparent to-transparent"></div>
-            </div>
-            <div class="p-4 flex items-center justify-between">
-              <h4 class="font-semibold text-lg">${item.title}</h4>
-              <span class="inline-flex items-center text-sm text-gold-300">
-                from  <span class="font-bold pl-1"> $5</span>
-              </span>
-            </div>
-          `;
-          popularItemsContainer.appendChild(card);
-        });
-      }
-
-      // Carousel Controls
-      const carousel = document.getElementById("carousel");
-      let scrollAmount = 0;
-      const cardWidthWithGap = 346; // ~340 + gap
-
-      function next() {
-        if (!carousel) return;
-        scrollAmount = Math.min(scrollAmount + cardWidthWithGap, carousel.scrollWidth);
-        carousel.scrollTo({ left: scrollAmount, behavior: "smooth" });
-        if (scrollAmount >= carousel.scrollWidth - carousel.clientWidth - 10) {
-          scrollAmount = 0;
-          setTimeout(() => carousel.scrollTo({ left: 0, behavior: "smooth" }), 350);
+      <!-- Data + Scripts -->
+      <script>
+        // Scroll helper
+        function scrollToSection(id) {
+          document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
         }
-      }
-      function prev() {
-        if (!carousel) return;
-        scrollAmount = Math.max(scrollAmount - cardWidthWithGap, 0);
-        carousel.scrollTo({ left: scrollAmount, behavior: "smooth" });
-      }
+  
+        // Sample menu JSON data (same structure as original)
+        const menuData = {
+          imgUrl: "https://storage.googleapis.com/production-domaincom-2/832/1926832/gXEVjxox/72a9794be98c4afa87e79b31300c9be3",
+          popular: [
+            {
+              image: "https://images.unsplash.com/photo-1694849789325-914b71ab4075?q=80&w=1200&auto=format&fit=crop",
+              title: "Indian Tiffins",
+            },
+            {
+              image: "https://images.unsplash.com/photo-1512058564366-18510be2db19?q=80&w=1200&auto=format&fit=crop",
+              title: "Chinese Street Food",
+            },
+            {
+              image: "https://plus.unsplash.com/premium_photo-1695297516710-854716c51121?q=80&w=1200&auto=format&fit=crop",
+              title: "Indian Street Food",
+            },
+            {
+              image: "https://plus.unsplash.com/premium_photo-1695927470038-35a215e794f0?q=80&w=1200&auto=format&fit=crop",
+              title: "Milkshakes & More",
+            },
+          ],
+        };
+  
+        // Populate Popular Items
+        const popularItemsContainer = document.getElementById('popular-items');
+        if (popularItemsContainer && menuData?.popular?.length) {
+          menuData.popular.forEach((item) => {
+            const card = document.createElement('article');
+            card.className = "group relative rounded-xl overflow-hidden ring-1 ring-white/10 bg-ink-700/60 hover:ring-gold-500/30 transition shadow-2xl";
+            card.innerHTML = `
+              <div class="relative">
+                <img src="${item.image}" alt="${item.title}" class="w-full h-[260px] md:h-[340px] object-cover transition duration-500 group-hover:scale-[1.03]" />
+                <div class="absolute inset-0 bg-gradient-to-t from-ink-900/80 via-transparent to-transparent"></div>
+              </div>
+              <div class="p-4 flex items-center justify-between">
+                <h4 class="font-semibold text-lg">${item.title}</h4>
+                <span class="inline-flex items-center text-sm text-gold-300">
+                  from <span class="font-semibold ml-2">$5</span>
+                </span>
+              </div>
+            `;
+            popularItemsContainer.appendChild(card);
+          });
+        }
+  
+        // Carousel Controls
+        const carousel = document.getElementById('gallery');
+        let scrollAmount = 0;
+        const cardWidthWithGap = 346; // ~340 + gap
+  
+        function next() {
+          if (!carousel) return;
+          scrollAmount = Math.min(scrollAmount + cardWidthWithGap, carousel.scrollWidth);
+          carousel.scrollTo({ left: scrollAmount, behavior: 'smooth' });
+          if (scrollAmount >= carousel.scrollWidth - carousel.clientWidth - 10) {
+            scrollAmount = 0;
+            setTimeout(() => carousel.scrollTo({ left: 0, behavior: 'smooth' }), 350);
+          }
+        }
+        function prev() {
+          if (!carousel) return;
+          scrollAmount = Math.max(scrollAmount - cardWidthWithGap, 0);
+          carousel.scrollTo({ left: scrollAmount, behavior: 'smooth' });
+        }
+  
+        document.getElementById('nextBtn')?.addEventListener('click', next);
+        document.getElementById('prevBtn')?.addEventListener('click', prev);
+  
+        // Auto-scroll (slower and smoother than original)
+        let autoScroll = setInterval(next, 2000);
+  
+        // Pause on hover
+        carousel?.addEventListener('mouseenter', () => clearInterval(autoScroll));
+        carousel?.addEventListener('mouseleave', () => autoScroll = setInterval(next, 2000));
+      </script>
 
-      document.getElementById("nextBtn")?.addEventListener("click", next);
-      document.getElementById("prevBtn")?.addEventListener("click", prev);
-
-      // Auto-scroll (slower and smoother than original)
-      let autoScroll = setInterval(next, 2000);
-
-      // Pause on hover
-      carousel?.addEventListener("mouseenter", () => clearInterval(autoScroll));
-      carousel?.addEventListener("mouseleave", () => (autoScroll = setInterval(next, 2000)));
-    </script>
   </body>
 </html>
