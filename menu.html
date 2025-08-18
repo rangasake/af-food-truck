@@ -1,236 +1,326 @@
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Menu — Amaravathi Food Truck</title>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Menu — Amaravathi Food Truck</title>
 
-    <!-- Tailwind CDN with custom theme extension (same palette as homepage) -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            colors: {
-              ink: {
-                900: '#0B0F14',
-                800: '#121720',
-                700: '#1B2230',
-                600: '#232C3D',
-              },
-              gold: {
-                50: '#FFFAE8',
-                100: '#FFF3C4',
-                200: '#FFE48A',
-                300: '#FFD24D',
-                400: '#F3C230',
-                500: '#D4AF37',
-                600: '#B8962F',
-                700: '#8F7427',
-                800: '#6A571E',
-                900: '#4B3E16',
-              },
+  <!-- Tailwind CDN with custom theme extension -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            ink: {
+              900: '#0B0F14',
+              800: '#121720',
+              700: '#1B2230',
+              600: '#232C3D',
             },
-            boxShadow: {
-              gold: '0 0 0 1px rgba(212,175,55,0.2), 0 12px 24px -12px rgba(0,0,0,0.5)',
-            },
-            backgroundImage: {
-              'noise': "url('data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%2240%22 height=%2240%22 viewBox=%220 0 40 40%22><circle cx=%223%22 cy=%223%22 r=%221%22 fill=%22rgba(255,255,255,0.06)%22/></svg>')",
-              'hero-gradient': 'linear-gradient(180deg, rgba(11,15,20,0.2) 0%, rgba(11,15,20,0.7) 40%, rgba(11,15,20,0.95) 100%)',
+            gold: {
+              50: '#FFFAE8',
+              100: '#FFF3C4',
+              200: '#FFE48A',
+              300: '#FFD24D',
+              400: '#F3C230',
+              500: '#D4AF37',
+              600: '#B8962F',
+              700: '#8F7427',
+              800: '#6A571E',
+              900: '#4B3E16',
             },
           },
+          boxShadow: {
+            gold: '0 0 0 1px rgba(212,175,55,0.2), 0 12px 24px -12px rgba(0,0,0,0.5)',
+          },
+          backgroundImage: {
+            'noise': "url('data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%2240%22 height=%2240%22 viewBox=%220 0 40 40%22><circle cx=%223%22 cy=%223%22 r=%221%22 fill=%22rgba(255,255,255,0.06)%22/></svg>')",
+            'hero-gradient': 'linear-gradient(180deg, rgba(11,15,20,0.2) 0%, rgba(11,15,20,0.7) 40%, rgba(11,15,20,0.95) 100%)',
+          },
         },
-      };
-    </script>
+      },
+    };
+  </script>
+  <style>
+    .no-scrollbar::-webkit-scrollbar { display: none; }
+    .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+  </style>
+</head>
 
-    <style>
-      .no-scrollbar::-webkit-scrollbar { display: none; }
-      .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
-    </style>
-  </head>
+<body class="font-sans bg-ink-900 text-white selection:bg-gold-500 selection:text-ink-900">
+  <!-- Header include -->
+  <div id="header"></div>
+  <script src="./js/include-header.js"></script>
 
-  <body class="font-sans bg-ink-900 text-white selection:bg-gold-500 selection:text-ink-900">
+  <!-- Hero -->
+  <section id="section1" class="relative min-h-[320px] md:min-h-[420px] flex items-end justify-center text-center"
+    style="background-image: url('https://images.unsplash.com/photo-1515339760107-1952b7a08454?q=80&w=2669&auto=format&fit=crop'); background-size: cover; background-position: center;">
+    <div class="absolute inset-0 bg-hero-gradient"></div>
+    <div class="absolute inset-0 bg-noise opacity-30 pointer-events-none"></div>
+    <div class="relative w-full max-w-5xl mx-auto px-4 md:px-6 lg:px-8 py-10 md:py-16">
+      <h1 class="text-3xl md:text-5xl font-extrabold">
+        Explore Our <span class="text-gold-400">Delicious</span> Menu
+      </h1>
+      <p class="mt-3 md:mt-4 text-white/80 leading-relaxed">
+        South Indian favorites made fresh with authentic flavors and quality ingredients—soft idlis, crispy dosas, and more.
+      </p>
+    </div>
+  </section>
 
-    <!-- Header include (if you use it globally) -->
-    <div id="header"></div>
-    <script src="./js/include-header.js"></script>
-
-    <!-- Hero -->
-    <section
-      id="section1"
-      class="relative min-h-[320px] md:min-h-[420px] flex items-end justify-center text-center"
-      style="background-image: url('https://images.unsplash.com/photo-1515339760107-1952b7a08454?q=80&w=2669&auto=format&fit=crop'); background-size: cover; background-position: center;"
-    >
-      <div class="absolute inset-0 bg-hero-gradient"></div>
-      <div class="absolute inset-0 bg-noise opacity-30 pointer-events-none"></div>
-
-      <div class="relative w-full max-w-5xl mx-auto px-4 md:px-6 lg:px-8 py-10 md:py-16">
-        <h1 class="text-3xl md:text-5xl font-extrabold">
-          Explore Our <span class="text-gold-400">Delicious</span> Menu
-        </h1>
-        <p class="mt-3 md:mt-4 text-white/80 leading-relaxed">
-          South Indian favorites made fresh with authentic flavors and quality ingredients—soft idlis, crispy dosas, and more.
-        </p>
+  <!-- Category Tabs -->
+  <section class="bg-ink-800 border-y border-white/5">
+    <div class="max-w-6xl mx-auto px-4 md:px-6 lg:px-8 py-4">
+      <div class="flex items-center gap-3 overflow-x-auto no-scrollbar">
+        <a href="#idly" class="inline-flex items-center gap-2 rounded-full border border-white/10 bg-ink-700/60 px-4 py-2 font-medium hover:border-gold-500/40 hover:text-gold-300 transition">Idly</a>
+        <a href="#dosa" class="inline-flex items-center gap-2 rounded-full border border-white/10 bg-ink-700/60 px-4 py-2 font-medium hover:border-gold-500/40 hover:text-gold-300 transition">Dosa</a>
+        <a href="#af-specials" class="inline-flex items-center gap-2 rounded-full border border-white/10 bg-ink-700/60 px-4 py-2">AF Specials</a>
+        <a href="#combos" class="inline-flex items-center gap-2 rounded-full border border-white/10 bg-ink-700/60 px-4 py-2">Combos</a>
+        <a href="#indian-street-food" class="inline-flex items-center gap-2 rounded-full border border-white/10 bg-ink-700/60 px-4 py-2">Indian Street</a>
+        <a href="#chaat" class="inline-flex items-center gap-2 rounded-full border border-white/10 bg-ink-700/60 px-4 py-2">Chaat</a>
+        <a href="#milk-shakes" class="inline-flex items-center gap-2 rounded-full border border-white/10 bg-ink-700/60 px-4 py-2">Milk Shakes</a>
+        <a href="#desserts" class="inline-flex items-center gap-2 rounded-full border border-white/10 bg-ink-700/60 px-4 py-2">Desserts</a>
+        <a href="#drinks-refreshers" class="inline-flex items-center gap-2 rounded-full border border-white/10 bg-ink-700/60 px-4 py-2">Drinks</a>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Category Tabs -->
-    <section class="bg-ink-800 border-y border-white/5">
-      <div class="max-w-6xl mx-auto px-4 md:px-6 lg:px-8 py-4">
-        <div class="flex items-center gap-3 overflow-x-auto no-scrollbar">
-          <a href="#idly" class="inline-flex items-center gap-2 rounded-full border border-white/10 bg-ink-700/60 px-4 py-2 font-medium hover:border-gold-500/40 hover:text-gold-300 transition">
-            Idly
-          </a>
-          <a href="#dosa" class="inline-flex items-center gap-2 rounded-full border border-white/10 bg-ink-700/60 px-4 py-2 font-medium hover:border-gold-500/40 hover:text-gold-300 transition">
-            Dosa
-          </a>
-        </div>
+  <!-- Menu Sections START -->
+  <!-- Idly -->
+<section id="idly" class="relative py-16 md:py-20 bg-ink-800">
+  <div class="absolute inset-0 bg-noise opacity-10 pointer-events-none"></div>
+  <div class="max-w-6xl mx-auto px-4 md:px-6 lg:px-8">
+    <div class="text-center mb-10">
+      <h2 class="text-3xl md:text-4xl font-extrabold">Idly Menu</h2>
+      <p class="mt-2 text-white/70">Soft, fluffy steamed rice cakes for a healthy start.</p>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-8" id="idly-items"></div>
+  </div>
+</section>
+
+<!-- Dosa -->
+<section id="dosa" class="relative py-16 md:py-20 bg-ink-800">
+  <div class="absolute inset-0 bg-noise opacity-10 pointer-events-none"></div>
+  <div class="max-w-6xl mx-auto px-4 md:px-6 lg:px-8">
+    <div class="text-center mb-10">
+      <h2 class="text-3xl md:text-4xl font-extrabold">Dosa Menu</h2>
+      <p class="mt-2 text-white/70">Crispy crepes from South India with flavorful fillings.</p>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-8" id="dosa-items"></div>
+  </div>
+</section>
+
+<!-- AF Specials -->
+<section id="af-specials" class="relative py-16 md:py-20 bg-ink-800">
+  <div class="absolute inset-0 bg-noise opacity-10 pointer-events-none"></div>
+  <div class="max-w-6xl mx-auto px-4 md:px-6 lg:px-8">
+    <div class="text-center mb-10">
+      <h2 class="text-3xl md:text-4xl font-extrabold">AF Specials</h2>
+      <p class="mt-2 text-white/70">Unique specialties crafted with a modern touch.</p>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-8" id="af-specials-items"></div>
+  </div>
+</section>
+
+<!-- Combos -->
+<section id="combos" class="relative py-16 md:py-20 bg-ink-800">
+  <div class="absolute inset-0 bg-noise opacity-10 pointer-events-none"></div>
+  <div class="max-w-6xl mx-auto px-4 md:px-6 lg:px-8">
+    <div class="text-center mb-10">
+      <h2 class="text-3xl md:text-4xl font-extrabold">Combos</h2>
+      <p class="mt-2 text-white/70">Perfectly paired meals for complete satisfaction.</p>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-8" id="combos-items"></div>
+  </div>
+</section>
+
+<!-- Indian Street Food -->
+<section id="indian-street-food" class="relative py-16 md:py-20 bg-ink-800">
+  <div class="absolute inset-0 bg-noise opacity-10 pointer-events-none"></div>
+  <div class="max-w-6xl mx-auto px-4 md:px-6 lg:px-8">
+    <div class="text-center mb-10">
+      <h2 class="text-3xl md:text-4xl font-extrabold">Indian Street Food</h2>
+      <p class="mt-2 text-white/70">Tasty delights from lively Indian streets.</p>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-8" id="indian-street-food-items"></div>
+  </div>
+</section>
+
+<!-- Indo-Chinese Street Food -->
+<section id="indo-chinese-street-food" class="relative py-16 md:py-20 bg-ink-800">
+  <div class="absolute inset-0 bg-noise opacity-10 pointer-events-none"></div>
+  <div class="max-w-6xl mx-auto px-4 md:px-6 lg:px-8">
+    <div class="text-center mb-10">
+      <h2 class="text-3xl md:text-4xl font-extrabold">Indo-Chinese Street Food</h2>
+      <p class="mt-2 text-white/70">Fusion of Indian spices with Chinese flavors.</p>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-8" id="indo-chinese-street-food-items"></div>
+  </div>
+</section>
+
+<!-- Non-Veg Appetizers -->
+<section id="non-veg-appetizers" class="relative py-16 md:py-20 bg-ink-800">
+  <div class="absolute inset-0 bg-noise opacity-10 pointer-events-none"></div>
+  <div class="max-w-6xl mx-auto px-4 md:px-6 lg:px-8">
+    <div class="text-center mb-10">
+      <h2 class="text-3xl md:text-4xl font-extrabold">Non-Veg Appetizers</h2>
+      <p class="mt-2 text-white/70">Savory starters for meat lovers.</p>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-8" id="non-veg-appetizers-items"></div>
+  </div>
+</section>
+
+<!-- Chaat -->
+<section id="chaat" class="relative py-16 md:py-20 bg-ink-800">
+  <div class="absolute inset-0 bg-noise opacity-10 pointer-events-none"></div>
+  <div class="max-w-6xl mx-auto px-4 md:px-6 lg:px-8">
+    <div class="text-center mb-10">
+      <h2 class="text-3xl md:text-4xl font-extrabold">Chaat</h2>
+      <p class="mt-2 text-white/70">Spicy, tangy street snacks to excite your taste buds.</p>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-8" id="chaat-items"></div>
+  </div>
+</section>
+
+<!-- Milk Shakes -->
+<section id="milk-shakes" class="relative py-16 md:py-20 bg-ink-800">
+  <div class="absolute inset-0 bg-noise opacity-10 pointer-events-none"></div>
+  <div class="max-w-6xl mx-auto px-4 md:px-6 lg:px-8">
+    <div class="text-center mb-10">
+      <h2 class="text-3xl md:text-4xl font-extrabold">Milk Shakes</h2>
+      <p class="mt-2 text-white/70">Creamy, chilled shakes to refresh your mood.</p>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-8" id="milk-shakes-items"></div>
+  </div>
+</section>
+
+<!-- Desserts -->
+<section id="desserts" class="relative py-16 md:py-20 bg-ink-800">
+  <div class="absolute inset-0 bg-noise opacity-10 pointer-events-none"></div>
+  <div class="max-w-6xl mx-auto px-4 md:px-6 lg:px-8">
+    <div class="text-center mb-10">
+      <h2 class="text-3xl md:text-4xl font-extrabold">Desserts</h2>
+      <p class="mt-2 text-white/70">Sweet treats to end your meal with a smile.</p>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-8" id="desserts-items"></div>
+  </div>
+</section>
+
+<!-- Drinks & Refreshers -->
+<section id="drinks-refreshers" class="relative py-16 md:py-20 bg-ink-800">
+  <div class="absolute inset-0 bg-noise opacity-10 pointer-events-none"></div>
+  <div class="max-w-6xl mx-auto px-4 md:px-6 lg:px-8">
+    <div class="text-center mb-10">
+      <h2 class="text-3xl md:text-4xl font-extrabold">Drinks & Refreshers</h2>
+      <p class="mt-2 text-white/70">Refreshing beverages to quench your thirst.</p>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-8" id="drinks-refreshers-items"></div>
+  </div>
+</section>
+
+  <!-- Footer -->
+  <footer class="bg-ink-800 border-t border-white/5">
+    <div class="max-w-6xl mx-auto px-4 md:px-6 lg:px-8 py-10 flex flex-col md:flex-row items-center justify-between gap-4">
+      <p class="text-white/70">© 2025 Amaravathi Food Truck. All rights reserved.</p>
+      <div class="flex items-center gap-6">
+        <a href="/" class="text-white/70 hover:text-gold-300 transition">Home</a>
+        <a href="#idly" class="text-white/70 hover:text-gold-300 transition">Idly</a>
+        <a href="#dosa" class="text-white/70 hover:text-gold-300 transition">Dosa</a>
       </div>
-    </section>
+    </div>
+  </footer>
 
-    <!-- Idly Section -->
-    <section id="idly" class="relative py-16 md:py-20">
-      <div class="absolute inset-0 bg-noise opacity-10 pointer-events-none"></div>
-      <div class="max-w-6xl mx-auto px-4 md:px-6 lg:px-8">
-        <div class="text-center mb-10">
-          <h2 class="text-3xl md:text-4xl font-extrabold">Idly Menu</h2>
-          <p class="mt-2 text-white/70">Soft, fluffy, and comforting—crafted fresh daily.</p>
-        </div>
-
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-8" id="idly-items">
-          <!-- Skeletons and items injected by JS -->
-        </div>
-      </div>
-    </section>
-
-    <!-- Dosa Section -->
-    <section id="dosa" class="relative py-16 md:py-20 bg-ink-800">
-      <div class="absolute inset-0 bg-noise opacity-10 pointer-events-none"></div>
-      <div class="max-w-6xl mx-auto px-4 md:px-6 lg:px-8">
-        <div class="text-center mb-10">
-          <h2 class="text-3xl md:text-4xl font-extrabold">Dosa Menu</h2>
-          <p class="mt-2 text-white/70">Crispy, golden crepes with classic and creative fillings.</p>
-        </div>
-
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-8" id="dosa-items">
-          <!-- Skeletons and items injected by JS -->
-        </div>
-      </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="bg-ink-800 border-t border-white/5">
-      <div class="max-w-6xl mx-auto px-4 md:px-6 lg:px-8 py-10 flex flex-col md:flex-row items-center justify-between gap-4">
-        <p class="text-white/70">© 2025 Amaravathi Food Truck. All rights reserved.</p>
-        <div class="flex items-center gap-6">
-          <a href="/" class="text-white/70 hover:text-gold-300 transition">Home</a>
-          <a href="#idly" class="text-white/70 hover:text-gold-300 transition">Idly</a>
-          <a href="#dosa" class="text-white/70 hover:text-gold-300 transition">Dosa</a>
-        </div>
-      </div>
-    </footer>
-
-    <!-- Scripts -->
-    <script>
-      // Skeleton loader template (dark themed)
-      const skeletonLoader = `
-        <article class="group relative rounded-xl overflow-hidden ring-1 ring-white/10 bg-ink-700/60 p-4">
-          <div class="flex items-start gap-4 animate-pulse">
-            <div class="w-28 h-28 md:w-32 md:h-32 rounded-full bg-white/10"></div>
-            <div class="flex-1 space-y-3">
-              <div class="h-4 rounded bg-white/10 w-2/3"></div>
-              <div class="h-3 rounded bg-white/10 w-5/6"></div>
-              <div class="h-3 rounded bg-white/10 w-3/4"></div>
-            </div>
+  <!-- Scripts -->
+  <script>
+    const skeletonLoader = `
+      <article class="group relative rounded-xl overflow-hidden ring-1 ring-white/10 bg-ink-700/60 p-4">
+        <div class="flex items-start gap-4 animate-pulse">
+          <div class="w-28 h-28 md:w-32 md:h-32 rounded-full bg-white/10"></div>
+          <div class="flex-1 space-y-3">
+            <div class="h-4 rounded bg-white/10 w-2/3"></div>
+            <div class="h-3 rounded bg-white/10 w-5/6"></div>
+            <div class="h-3 rounded bg-white/10 w-3/4"></div>
           </div>
-        </article>
-      `;
+        </div>
+      </article>
+    `;
 
-      function showLoading(containerId) {
-        const container = document.getElementById(containerId);
-        if (!container) return;
-        container.innerHTML = skeletonLoader.repeat(4);
+    function showLoading(containerId) {
+      const container = document.getElementById(containerId);
+      if (container) container.innerHTML = skeletonLoader.repeat(4);
+    }
+    function hideLoading(containerId) {
+      const container = document.getElementById(containerId);
+      if (container) container.innerHTML = '';
+    }
+    function currency(value) {
+      if (typeof value === 'number') return '$' + value.toFixed(2);
+      if (typeof value === 'string' && value.trim().startsWith('$')) return value;
+      return '$' + value;
+    }
+    function renderMenuItems(items, containerId) {
+      const container = document.getElementById(containerId);
+      if (!container) return;
+      hideLoading(containerId);
+
+      if (!items || !items.length) {
+        container.innerHTML = `<div class="rounded-xl border border-white/10 bg-ink-700/40 p-6 text-center text-white/70">No items available right now.</div>`;
+        return;
       }
-
-      function hideLoading(containerId) {
-        const container = document.getElementById(containerId);
-        if (!container) return;
-        container.innerHTML = '';
-      }
-
-      function currency(value) {
-        if (typeof value === 'number') return '$' + value.toFixed(2);
-        if (typeof value === 'string' && value.trim().startsWith('$')) return value;
-        return '$' + value;
-      }
-
-      function renderMenuItems(items, containerId) {
-        const container = document.getElementById(containerId);
-        if (!container) return;
-
-        hideLoading(containerId);
-
-        if (!items || !items.length) {
-          const empty = document.createElement('div');
-          empty.className = 'rounded-xl border border-white/10 bg-ink-700/40 p-6 text-center';
-          empty.innerHTML = `<p class="text-white/70">No items available right now. Please check back soon.</p>`;
-          container.appendChild(empty);
-          return;
-        }
-
-        items.forEach(item => {
-          const { imageUrl, itemName, price, description } = item;
-          const card = document.createElement('article');
-          card.className = 'group relative rounded-xl overflow-hidden ring-1 ring-white/10 bg-ink-700/60 p-4 hover:ring-gold-500/30 transition shadow-2xl';
-          card.innerHTML = `
-            <div class="flex items-start gap-4">
-              <img src="${imageUrl}" alt="${itemName}" class="w-28 h-28 md:w-32 md:h-32 object-cover rounded-full ring-1 ring-white/10 shadow-2xl" />
-              <div class="flex-1">
-                <div class="flex items-start justify-between gap-3">
-                  <h3 class="text-xl font-semibold">${itemName}</h3>
-                  <span class="text-gold-300 text-lg font-bold whitespace-nowrap">${currency(price)}</span>
-                </div>
-                <p class="mt-2 text-white/70">${description || ''}</p>
+      items.forEach(item => {
+        const { imageUrl, itemName, price, description } = item;
+        const card = document.createElement('article');
+        card.className = 'group relative rounded-xl overflow-hidden ring-1 ring-white/10 bg-ink-700/60 p-4 hover:ring-gold-500/30 transition shadow-2xl';
+        card.innerHTML = `
+          <div class="flex items-start gap-4">
+            <img src="${imageUrl}" alt="${itemName}" class="w-28 h-28 md:w-32 md:h-32 object-cover rounded-full ring-1 ring-white/10 shadow-2xl" />
+            <div class="flex-1">
+              <div class="flex items-start justify-between gap-3">
+                <h3 class="text-xl font-semibold">${itemName}</h3>
+                <span class="text-gold-300 text-lg font-bold whitespace-nowrap">${currency(price)}</span>
               </div>
+              <p class="mt-2 text-white/70">${description || ''}</p>
             </div>
-          `;
-          container.appendChild(card);
-        });
-      }
+          </div>`;
+        container.appendChild(card);
+      });
+    }
+    function showError(containerId, message) {
+      const container = document.getElementById(containerId);
+      if (!container) return;
+      hideLoading(containerId);
+      container.innerHTML = `<div class="rounded-xl border border-red-500/30 bg-red-500/10 p-4">
+        <p class="text-red-300 font-semibold">${message}</p>
+        <p class="text-white/60 text-sm mt-1">Try refreshing the page.</p>
+      </div>`;
+    }
 
-      function showError(containerId, message) {
-        const container = document.getElementById(containerId);
-        if (!container) return;
+    // Show loader for all categories
+    ["idly-items","dosa-items","af-specials-items","combos-items","indian-street-food-items","indo-chinese-street-food-items","non-veg-appetizers-items","chaat-items","milk-shakes-items","desserts-items","drinks-refreshers-items"].forEach(showLoading);
 
-        hideLoading(containerId);
+    const ENDPOINT = "https://script.googleusercontent.com/macros/echo?user_content_key=AehSKLi9Xdb04PctqnLdb_Cq1xF3rcvi9LgWNWGyCatk1qEnLyZ5AprUXHA2B7E31GKubCLuxJDCbU4gSH3rwBXufTFrRNsnwgUSUHpjRQmbVRtDWwjRE9shT-N43x-lFyDcb6dvgLiKKCNH5lrVkSUKzMPXexI2sY4xlIwLD33MNM8Qb3NBsNu1vSViTnVCe8e6w7f_CoSxAAB9GDJyiLAzXzLiwz_uVbRbNzmmSbDrVcnr14WMbz7bfbbeR49CvrMr6QV0OVH6JVG9O21n3zlTahauzbqIrQ&lib=M268ee32Q_RclgkaQ5PXC-ioIRrdL-l05";
 
-        const errorMsg = document.createElement('div');
-        errorMsg.className = 'rounded-xl border border-red-500/30 bg-red-500/10 p-4';
-        errorMsg.innerHTML = `
-          <p class="text-red-300 font-semibold">${message}</p>
-          <p class="text-white/60 text-sm mt-1">Try refreshing the page or check your connection.</p>
-        `;
-        container.appendChild(errorMsg);
-      }
-
-      // Show loaders immediately
-      showLoading('idly-items');
-      showLoading('dosa-items');
-
-      // Fetch data
-      const ENDPOINT = 'https://script.google.com/macros/s/AKfycbxY-deWERnIssQwhVEKztMenkShOMQbasqBfmkncmAIWSJa7YMKbWGo67BWGYmbOXAF/exec';
-    
-      fetch(ENDPOINT)
-        .then(res => res.json())
-        .then(data => {
-          renderMenuItems(data.idly_menu, 'idly-items');
-          renderMenuItems(data.dosa_menu, 'dosa-items');
-        })
-        .catch(error => {
-          console.error('Error fetching data:', error);
-          showError('idly-items', 'Failed to load Idly menu.');
-          showError('dosa-items', 'Failed to load Dosa menu.');
-        });
-    </script>
-  </body>
+    fetch(ENDPOINT)
+      .then(res => res.json())
+      .then(data => {
+        renderMenuItems(data.idly_menu, 'idly-items');
+        renderMenuItems(data.dosa_menu, 'dosa-items');
+        renderMenuItems(data.af_specials, 'af-specials-items');
+        renderMenuItems(data.combos, 'combos-items');
+        renderMenuItems(data.indian_street_food, 'indian-street-food-items');
+        renderMenuItems(data.indo_chinese_street_food, 'indo-chinese-street-food-items');
+        renderMenuItems(data.non_veg_appetizers, 'non-veg-appetizers-items');
+        renderMenuItems(data.chaat, 'chaat-items');
+        renderMenuItems(data.milk_shakes, 'milk-shakes-items');
+        renderMenuItems(data.desserts, 'desserts-items');
+        renderMenuItems(data.drinks_refreshers, 'drinks-refreshers-items');
+      })
+      .catch(err => {
+        console.error("Fetch failed:", err);
+        ["idly-items","dosa-items","af-specials-items","combos-items","indian-street-food-items","indo-chinese-street-food-items","non-veg-appetizers-items","chaat-items","milk-shakes-items","desserts-items","drinks-refreshers-items"]
+          .forEach(id => showError(id, "Failed to load menu section."));
+      });
+      console.log("Fetching menu data from:", data);
+  </script>
+</body>
 </html>
