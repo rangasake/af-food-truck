@@ -298,7 +298,7 @@
     // Show loader for all categories
     ["idly-items","dosa-items","af-specials-items","combos-items","indian-street-food-items","indo-chinese-street-food-items","non-veg-appetizers-items","chaat-items","milk-shakes-items","desserts-items","drinks-refreshers-items"].forEach(showLoading);
 
-    const ENDPOINT = "https://script.googleusercontent.com/macros/echo?user_content_key=AehSKLi9Xdb04PctqnLdb_Cq1xF3rcvi9LgWNWGyCatk1qEnLyZ5AprUXHA2B7E31GKubCLuxJDCbU4gSH3rwBXufTFrRNsnwgUSUHpjRQmbVRtDWwjRE9shT-N43x-lFyDcb6dvgLiKKCNH5lrVkSUKzMPXexI2sY4xlIwLD33MNM8Qb3NBsNu1vSViTnVCe8e6w7f_CoSxAAB9GDJyiLAzXzLiwz_uVbRbNzmmSbDrVcnr14WMbz7bfbbeR49CvrMr6QV0OVH6JVG9O21n3zlTahauzbqIrQ&lib=M268ee32Q_RclgkaQ5PXC-ioIRrdL-l05";
+       const ENDPOINT = "./menu.json"; // Local JSON file path
 
     fetch(ENDPOINT)
       .then(res => res.json())
