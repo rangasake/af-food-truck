@@ -441,27 +441,4 @@
         "imageUrl": "https://static.vecteezy.com/system/resources/thumbnails/040/254/813/small_2x/ai-generated-blue-bottle-of-mineral-water-in-water-splashes-photo.jpg"
       }
     ],
-    "do_not_add_to_web": [
-      {
-        "deploy Id": "AKfycbyN0X87Vkg2McuUZ00s2elTWP0btjN91V0XDZMFwDQ",
-        "secret key": "1Zpo5HHZvr7mzuHt1muHrS4nVnIdow2qzdO_ADbhDCn1hSSaPH0z43Pwk"
-      },
-      {
-        "deploy Id": "",
-        "secret key": ""
-      },
-      {
-        "deploy Id": "",
-        "secret key": ""
-      },
-      {
-        "deploy Id": "",
-        "secret key": ""
-      },
-      {
-        "deploy Id": "",
-        "secret key": "https://script.google.com/macros/s/AKfycbyF2ZDiN0O77mMphLUCBFB4Y8OINCm_Qrs7n6l_1DX3airG2dHI2TjKCM-Mo5v9kvSh/exec"
-      }
-    ],
-    "website_changes": []
   }
