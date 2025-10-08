@@ -1,444 +1,444 @@
 {
-    "idly_menu": [
-      {
-        "itemName": "Idly (3)",
-        "quantity": 3,
-        "price": 5.75,
-        "description": "Steamed rice and urad dal cakes served with chutney and sambar.",
-        "imageUrl": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      },
-      {
-        "itemName": "Chitti Idly (12)",
-        "quantity": 12,
-        "price": 5.99,
-        "description": "Mini idlis made from fermented rice batter, served with chutney.",
-        "imageUrl": "https://media.istockphoto.com/id/1424489174/photo/idly-sambar-or-idli-with-sambhar-and-green-red-chutney-popular-south-indian-breakfast.webp?a=1&b=1&s=612x612&w=0&k=20&c=PVwUqQGw155iEczXtDG300_RnRBfvfojEKO10HmRxls="
-      },
-      {
-        "itemName": "Ghee Karam Idly (3)",
-        "quantity": 3,
-        "price": 6.99,
-        "description": "Idlis tossed in ghee and Andhra-style karam podi (spice powder).",
-        "imageUrl": "https://deccanspice.us/wp-content/uploads/2023/10/ghee-idli-scaled.jpg"
-      },
-      {
-        "itemName": "Thatte Idly (2)",
-        "quantity": 2,
-        "price": 6.99,
-        "description": "A large, soft, and fluffy idly steamed in a flat plate (thatte) served with sambar and chutney.",
-        "imageUrl": "https://i.ytimg.com/vi/pKqqY9VeKdM/sddefault.jpg"
-      },
-      {
-        "itemName": "Sambar Idly (3)",
-        "quantity": 3,
-        "price": 6.99,
-        "description": "Soft idlis soaked in spicy lentil vegetable stew (sambar).",
-        "imageUrl": "https://images.unsplash.com/photo-1670432320633-08b1959aa883?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      }
-    ],
-    "dosa_menu": [
-      {
-        "itemName": "Plain Dosa / Plain Karaam Dosa",
-        "quantity": 1,
-        "price": 7.99,
-        "description": "Crispy thin crepe made from fermented rice and lentil batter/ Dosa coated with spicy karam podi.",
-        "imageUrl": "https://images.unsplash.com/photo-1743517894265-c86ab035adef?q=80&w=1082&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      },
-      {
-        "itemName": "Ghee Roast Dosa / Ghee Kaaram Dosa",
-        "quantity": 1,
-        "price": 9.99,
-        "description": "Dosa coated with spicy karam podi and ghee.",
-        "imageUrl": "https://images.unsplash.com/photo-1694849789325-914b71ab4075?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      },
-      {
-        "itemName": "Onion Dosa ",
-        "quantity": 1,
-        "price": 8.99,
-        "description": "Dosa topped with finely chopped onions and herbs.",
-        "imageUrl": "https://i.pinimg.com/564x/40/44/96/404496f23a3460b0c5e77cc833a181d0.jpg"
-      },
-      {
-        "itemName": "Masala Dosa",
-        "quantity": 1,
-        "price": 9.99,
-        "description": "Dosa filled with spiced mashed potato curry.",
-        "imageUrl": "https://media.istockphoto.com/id/2220390254/photo/crispy-masala-dosa-is-a-popular-south-indian-food-served-with-tomato-chutney-coconut-chutney.jpg?s=612x612&w=0&k=20&c=h72SS3QoSaUBd_enRS_7T8K6RRg9nCkTjLmnIOGq2S8="
-      },
-      {
-        "itemName": "Egg Dosa",
-        "quantity": 1,
-        "price": 9.99,
-        "description": "Dosa layered with beaten egg and light seasoning.",
-        "imageUrl": "https://thumbs.dreamstime.com/b/delicious-masala-dosa-sides-vibrant-generated-ai-south-indian-crepe-filled-spiced-potatoes-vegetables-served-383817116.jpg"
-      }
-    ],
-    "af_specials": [
-      {
-        "itemName": "Puri (2)",
-        "quantity": 2,
-        "price": 6.99,
-        "description": "Deep-fried wheat bread served with potato curry.",
-        "imageUrl": "https://images.unsplash.com/photo-1605719161691-5d9771fc144f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHNvdXRoJTIwaW5kaWFuJTIwZm9vZHxlbnwwfHwwfHx8MA%3D%3D"
-      },
-      {
-        "itemName": "Uthappam",
-        "quantity": 1,
-        "price": 6.99,
-        "description": "Thick dosa topped with vegetables like onions, chilies, & tomatoes.",
-        "imageUrl": "https://media.istockphoto.com/id/2227506292/photo/stock-photo-of-south-indian-dish-onion-dosa.jpg?s=612x612&w=0&k=20&c=mhNQ9X6tDAtb-s5zeFD3wfuFDqFZZp_9E4x1cXp7xNc="
-      },
-      {
-        "itemName": "Mysore Bonda (3)",
-        "quantity": 3,
-        "price": 5.99,
-        "description": "Fried urad dal dumplings with crispy golden crust.",
-        "imageUrl": "https://www.awesomecuisine.com/wp-content/uploads/2016/04/mysore-bonda.jpg"
-      },
-      {
-        "itemName": "Medu Vada (3)",
-        "quantity": 3,
-        "price": 6.99,
-        "description": "Crispy savory donuts made from urad dal.",
-        "imageUrl": "https://images.unsplash.com/photo-1730191843435-073792ba22bc?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dmFkYXxlbnwwfHwwfHx8MA%3D%3D"
-      },
-      {
-        "itemName": "Chapathi (2)",
-        "quantity": 2,
-        "price": 5.99,
-        "description": "Whole wheat flatbread served with curry.",
-        "imageUrl": "https://media.istockphoto.com/id/2159106869/photo/close-up-of-chickpeas-chana-masala-with-roti-or-chapati-on-a-wooden-table-chikpea-is-also.jpg?s=612x612&w=0&k=20&c=u21Ubo34WHy4oup5EA0f2zuqlwKemle4nye0YuEhb4A="
-      },
-      {
-        "itemName": "Paratha (2)",
-        "quantity": 2,
-        "price": 6.99,
-        "description": "Layered Indian flatbread, pan-fried with ghee or oil.",
-        "imageUrl": "https://images.unsplash.com/photo-1683533746199-9e3920bf3eab?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cGFyYXRoYXxlbnwwfHwwfHx8MA%3D%3D"
-      }
-    ],
-    "combos": [
-      {
-        "itemName": "Idly(2) , Vada(1)",
-        "quantity": "",
-        "price": 6.99,
-        "description": "A satisfying combination of soft idlis and crispy medu vada.",
-        "imageUrl": "https://media.istockphoto.com/id/2231225919/photo/delicious-south-indian-breakfast-food-idli-and-vada.jpg?s=612x612&w=0&k=20&c=nnK_BYfbfdt3oxAWuJrZKFQrr0DYIDW91rVZzBiCaQs="
-      },
-      {
-        "itemName": "Idly(2) , Dosa(1)",
-        "quantity": "",
-        "price": 9.99,
-        "description": "Perfect pairing of fluffy idlis and a crisp dosa.",
-        "imageUrl": "https://media.istockphoto.com/id/1369496623/photo/jowar-or-sorghum-idli-and-dosa-with-chutneys.jpg?s=612x612&w=0&k=20&c=7xwX0OVC-A3vdZGSIr_JNk3tG_l0lUtIkPEWpl_UO5U="
-      }
-    ],
-    "indian_street_food": [
-      {
-        "itemName": "Vijaywada Chitti Punugulu",
-        "quantity": "",
-        "price": 7.99,
-        "description": "Crispy fritters made from fermented dosa batter.",
-        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7LX0sKtVBtI5t6U4-SyoSXnzdJM1uaRMyUA&s"
-      },
-      {
-        "itemName": "Mirchi Bajji (4)",
-        "quantity": 4,
-        "price": 7.99,
-        "description": "Green chilies dipped in besan batter and deep fried.",
-        "imageUrl": "https://media.istockphoto.com/id/2113913164/photo/indian-street-fried-food-spicy-chilli-pakora-its-a-popular-tea-time-snacks.jpg?s=612x612&w=0&k=20&c=cJawrFZ_leyF0NKS7Sk_N-KUCEvLpvxVZ2DM5w7aWp8="
-      },
-      {
-        "itemName": "Stuffed Mirchi Bajji (3)",
-        "quantity": 3,
-        "price": 8.99,
-        "description": "Chili fritters stuffed with tangy potato masala.",
-        "imageUrl": "https://media.istockphoto.com/id/1528894763/photo/stuffed-mirchi-bajji.jpg?s=612x612&w=0&k=20&c=ggtzPEpZS2SQSduFcAj546OYiBcMwSaWTm7MR-IM2s4="
-      },
-      {
-        "itemName": "Aloo Bajji (4)",
-        "quantity": 4,
-        "price": 6.99,
-        "description": "Sliced potato fritters, deep-fried until golden.",
-        "imageUrl": "https://art.whisk.com/image/upload/fl_progressive,h_560,w_560,c_fill,dpr_2/v1613066595/recipe/be3e96e99446baa51979a346a5319519.jpg"
-      },
-      {
-        "itemName": "Onion Pakodi",
-        "quantity": "",
-        "price": 5.99,
-        "description": "Crispy fritters made from onion and chickpea flour.",
-        "imageUrl": "https://media-cdn2.greatbritishchefs.com/media/nrniyevq/img16333.whqc_768x512q90fpt530fpl566.jpg"
-      },
-      {
-        "itemName": "Chicken Street Tacos (4)",
-        "quantity": 4,
-        "price": 7.99,
-        "description": "Soft corn tortillas filled with chicken, topped with onions, cilantro, and zesty salsa",
-        "imageUrl": "https://littlespicejar.com/wp-content/uploads/2017/04/Ancho-Chili-Chicken-Street-Tacos-2.jpg"
-      }
-    ],
-    "indo_chinese_street_food": [
-      {
-        "itemName": "Veg Fried Rice",
-        "quantity": "",
-        "price": 8.99,
-        "description": "Basmati rice stir-fried with vegetables & soy sauce.",
-        "imageUrl": "https://www.kannammacooks.com/wp-content/uploads/schezwan-veg-fried-rice-1.jpg"
-      },
-      {
-        "itemName": "Egg Fried Rice",
-        "quantity": "",
-        "price": 9.99,
-        "description": "Fried rice with vegetables & scrambled eggs.",
-        "imageUrl": "https://www.sharmispassions.com/wp-content/uploads/2013/04/EggFriedRice4-500x500.jpg"
-      },
-      {
-        "itemName": "Chicken Fried Rice",
-        "quantity": "",
-        "price": 11.99,
-        "description": "Flavorful fried rice with spiced chicken pieces.",
-        "imageUrl": "https://www.kannammacooks.com/wp-content/uploads/street-style-chicken-rice-recipe-1-3.jpg"
-      },
-      {
-        "itemName": "Veg Noodles",
-        "quantity": "",
-        "price": 8.99,
-        "description": "Stir-fried noodles with mixed vegetables & Indo-Chinese seasoning.",
-        "imageUrl": "https://www.ohmyveg.co.uk/wp-content/webp-express/webp-images/uploads/2024/08/hakka-noodles.jpg.webp"
-      },
-      {
-        "itemName": "Egg Noodles",
-        "quantity": "",
-        "price": 9.99,
-        "description": "Noodles tossed with vegetables and scrambled eggs.",
-        "imageUrl": "https://telugu.cdn.zeenews.com/telugu/sites/default/files/2024/12/30/412973-untitled-design-11.jpg"
-      },
-      {
-        "itemName": "Chicken Noodles",
-        "quantity": "",
-        "price": 11.99,
-        "description": "Stir-fried noodles with chicken and vegetables.",
-        "imageUrl": "https://omnivorescookbook.com/wp-content/uploads/2019/09/1403_15-Minute-Tomato-Egg-Noodles_550.jpg"
-      },
-      {
-        "itemName": "Veg Gobi Manchuria (Sunday Only)",
-        "quantity": "",
-        "price": 9.99,
-        "description": "Crispy cauliflower tossed in a tangy Indo-Chinese sauce.",
-        "imageUrl": "https://www.robinage.com/wp-content/uploads/2022/01/GOBI-MANCHURIAN.jpg"
-      },
-      {
-        "itemName": "Egg Manchuria (Sunday Only)",
-        "quantity": "",
-        "price": 10.99,
-        "description": "Egg fritters in a spicy Manchurian sauce.",
-        "imageUrl": "https://myfoodstory.com/wp-content/uploads/2021/07/Gobi-Manchurian-3.jpg"
-      },
-      {
-        "itemName": "Chicken Manchuria (Sunday Only)",
-        "quantity": "",
-        "price": 12.99,
-        "description": "Chicken bites in a garlic soy-based Manchurian sauce.",
-        "imageUrl": "https://rainbowplantlife.com/wp-content/uploads/2022/02/Gobi-Manchurian-closeup-1-of-1.jpg"
-      }
-    ],
-    "non_veg_appetizers": [
-      {
-        "itemName": "Chicken Pakodi",
-        "quantity": "",
-        "price": 9.99,
-        "description": "Spiced chicken fritters deep-fried to perfection.",
-        "imageUrl": "https://images.squarespace-cdn.com/content/v1/59739d0ed2b857fb9af8f717/1601849260033-A668B5YN1OJQS7H3J0TO/girija-indian-fried-chicken.jpg"
-      },
-      {
-        "itemName": "Chilly Chicken",
-        "quantity": "",
-        "price": 10.99,
-        "description": "Boneless chicken tossed in spicy Indo-Chinese sauce.",
-        "imageUrl": "https://nishkitchen.com/wp-content/uploads/2014/12/Chilli-Chicken-2B.jpg"
-      },
-      {
-        "itemName": "Chicken 555",
-        "quantity": "",
-        "price": 10.99,
-        "description": "Crispy fried chicken tossed in a spicy, tangy sauce with garlic, curry leaves, and chilies",
-        "imageUrl": "https://jeyporedukaan.in/wp-content/uploads/2024/02/dragon_chicken_dry_version_featured-jpg.webp"
-      },
-      {
-        "itemName": "Cashew Chicken Pakodi",
-        "quantity": "",
-        "price": 12.99,
-        "description": "Spiced chicken fritters with Cashews deep-fried to perfection.",
-        "imageUrl": "https://content.jdmagicbox.com/v2/comp/eluru/r4/9999p8812.8812.231208203337.s3r4/catalogue/kaju-chicken-pakodi-center-jangareddygudem-road-eluru-fast-food-zz1cedsxx3.jpg"
-      },
-      {
-        "itemName": "Tandoori Chicken Joints (2)",
-        "quantity": 2,
-        "price": 8.99,
-        "description": "Marinated and fried chicken leg joints.",
-        "imageUrl": "https://i.ytimg.com/vi/XVxGnN_7Htc/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBtTnVFTI-L8F_vuE8rWcxWV8vBLw"
-      }
-    ],
-    "chaat": [
-      {
-        "itemName": "Pani Puri (8)",
-        "quantity": 8,
-        "price": 6.99,
-        "description": "Crispy hollow puris filled with tangy spiced water and potato.",
-        "imageUrl": "https://i0.wp.com/myvegetarianroots.com/wp-content/uploads/2020/03/DSC_0244.jpeg?resize=768%2C1000&ssl=1"
-      },
-      {
-        "itemName": "Dahi Puri (6)",
-        "quantity": 6,
-        "price": 6.99,
-        "description": "Purified topped with yogurt, sweet chutney and spices.",
-        "imageUrl": "https://i0.wp.com/myvegetarianroots.com/wp-content/uploads/2020/03/DSC_0252.jpeg?resize=727%2C1024&ssl=1"
-      },
-      {
-        "itemName": "Pav Bhaji (2)",
-        "quantity": 2,
-        "price": 6.99,
-        "description": "Spiced mashed vegetables served with buttered, toasted Pav",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Bambayya_Pav_bhaji.jpg"
-      },
-      {
-        "itemName": "Masala Mixture (Bhel Puri)",
-        "quantity": "",
-        "price": 4.99,
-        "description": "Spiced crunchy mixture with peanuts and sev.",
-        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1lK36ywXwhoKQEXhabY1-aBb9VRU7ZSXTRw&s"
-      }
-    ],
-    "milk_shakes": [
-      {
-        "itemName": "Chocolate Shake",
-        "quantity": "",
-        "price": 3.99,
-        "description": "Rich and creamy chocolate milkshake.",
-        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvW9QNP2QJcdtlSad2YglnK0UcrBy4lZXR9g&s"
-      },
-      {
-        "itemName": "Oreo Shake",
-        "quantity": "",
-        "price": 4.99,
-        "description": "Blended Oreo cookies in a smooth vanilla shake.",
-        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7LLUlRVueI9JORhMbKJWzed1SaSjwnq2-EQ&s"
-      },
-      {
-        "itemName": "Oreo Chocolate Shake",
-        "quantity": "",
-        "price": 5.99,
-        "description": "Chocolate milkshake with crushed Oreo cookies.",
-        "imageUrl": "https://yogaofcooking.co/wp-content/uploads/2020/07/oreo-milkshake-4.jpg"
-      },
-      {
-        "itemName": "Mango Lassi",
-        "quantity": "",
-        "price": 3.99,
-        "description": "Sweet mango yogurt drink, served chilled.",
-        "imageUrl": "https://ingenium.ca/agriculture/wp-content/uploads/sites/3/2025/01/CAFM-Mango-Lassi-Picture_0-scaled.jpg"
-      },
-      {
-        "itemName": "Sweet Lassi",
-        "quantity": "",
-        "price": 2.99,
-        "description": "Traditional sweet yogurt-based drink.",
-        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIxz80rXVnWKqp55zm6HL4EZTpZkVBxf7c6w&s"
-      }
-    ],
-    "desserts": [
-      {
-        "itemName": "Double ka Meeta (Bread Halwa)",
-        "quantity": "",
-        "price": 4.99,
-        "description": "Hyderabadi dessert made from fried bread, milk, and dry fruits.",
-        "imageUrl": "https://i.ndtvimg.com/i/2016-02/bread-halwa-625_625x350_81454580988.jpg"
-      },
-      {
-        "itemName": "Gulab Jamun (3)",
-        "quantity": 3,
-        "price": 4.99,
-        "description": "Milk-solid balls soaked in rose flavored sugar syrup.",
-        "imageUrl": "https://static.toiimg.com/thumb/63799510.cms?imgsize=1091643&width=800&height=800"
-      },
-      {
-        "itemName": "Fruit Custard",
-        "quantity": "",
-        "price": 4.99,
-        "description": "A chilled dessert made with creamy vanilla-flavored custard mixed with a variety\nof seasonal fruits such as apples, bananas, grapes, and pomegranate — lightly\nsweet and refreshing.",
-        "imageUrl": "https://www.blendwithspices.com/wp-content/uploads/2016/02/fruit-custard-recipe.jpg"
-      },
-      {
-        "itemName": "Basundi/ Rabdi (Only Weekends)",
-        "quantity": "",
-        "price": 5.99,
-        "description": "A rich, creamy and Traditional Indian dessert made by simmering full-fat milk\nuntil thickened, flavored with cardamom, saffron, and garnished with chopped\ndry fruits",
-        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9hg4JfJNaUseBchdxVL2060G-bLVzlHxFHA&s"
-      }
-    ],
-    "drinks_refreshers": [
-      {
-        "itemName": "Chai / Tea (Small)",
-        "quantity": "",
-        "price": 1.49,
-        "description": "Hyderabadi-style strong and sweet tea with milk.",
-        "imageUrl": "https://resize.indiatvnews.com/en/resize/newbucket/1200_-/2025/01/befunky-collage-2025-01-26t112507-1737870855.jpg"
-      },
-      {
-        "itemName": "Chai / Tea (Large)",
-        "quantity": "",
-        "price": 2.49,
-        "description": "Hyderabadi-style strong and sweet tea with milk.",
-        "imageUrl": "https://resize.indiatvnews.com/en/resize/newbucket/1200_-/2025/01/befunky-collage-2025-01-26t112507-1737870855.jpg"
-      },
-      {
-        "itemName": "Chai Biscuit(2) Combo",
-        "quantity": "",
-        "price": 3.25,
-        "description": "Any Chai served with 2 Osmania biscuits.",
-        "imageUrl": "https://media.istockphoto.com/id/1253001062/photo/cup-of-tea-on-wooden-table-with-butter-biscuits.jpg?s=612x612&w=0&k=20&c=L-1C4ra-CA3FIEIskm3IZyS58jxscyrswdGPFYR-UJM="
-      },
-      {
-        "itemName": "Lemon Soda",
-        "quantity": "",
-        "price": 1.99,
-        "description": "Freshly squeezed lemon in carbonated water with choice of salt or sugar.",
-        "imageUrl": "https://bakesbybrownsugar.com/wp-content/uploads/2023/01/Lemon-Soda-15C.jpg"
-      },
-      {
-        "itemName": "Thumpsup",
-        "quantity": "",
-        "price": 1.99,
-        "description": "",
-        "imageUrl": "https://candybar.snackcrate.com/wp-content/uploads/2025/04/IN_Thums-Up-Original_PDP-min.png"
-      },
-      {
-        "itemName": "Coke",
-        "quantity": "",
-        "price": 1.99,
-        "description": "",
-        "imageUrl": "https://as2.ftcdn.net/jpg/02/94/25/61/1000_F_294256168_z4sxV8I9XXuQFL8mH9jRUxmkQFRmKnVA.jpg"
-      },
-      {
-        "itemName": "Limca",
-        "quantity": "",
-        "price": 1.99,
-        "description": "",
-        "imageUrl": "https://mir-s3-cdn-cf.behance.net/project_modules/disp_webp/813446159567639.63a1765015236.png"
-      },
-      {
-        "itemName": "Sprite",
-        "quantity": "",
-        "price": 1.99,
-        "description": "",
-        "imageUrl": "https://i.pinimg.com/736x/fc/d3/8e/fcd38e7ee690829fb8a7e9d39e1f3d80.jpg"
-      },
-      {
-        "itemName": "Water",
-        "quantity": "",
-        "price": 0.99,
-        "description": "Bottled drinking water.",
-        "imageUrl": "https://static.vecteezy.com/system/resources/thumbnails/040/254/813/small_2x/ai-generated-blue-bottle-of-mineral-water-in-water-splashes-photo.jpg"
-      }
-    ]
-  }
+  "idly_menu": [
+    {
+      "itemName": "Idly (3)",
+      "quantity": 3,
+      "price": 5.75,
+      "description": "Steamed rice and urad dal cakes served with chutney and sambar.",
+      "imageUrl": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "itemName": "Chitti Idly (12)",
+      "quantity": 12,
+      "price": 5.99,
+      "description": "Mini idlis made from fermented rice batter, served with chutney.",
+      "imageUrl": "https://media.istockphoto.com/id/1424489174/photo/idly-sambar-or-idli-with-sambhar-and-green-red-chutney-popular-south-indian-breakfast.webp?a=1&b=1&s=612x612&w=0&k=20&c=PVwUqQGw155iEczXtDG300_RnRBfvfojEKO10HmRxls="
+    },
+    {
+      "itemName": "Ghee Karam Idly (3)",
+      "quantity": 3,
+      "price": 6.99,
+      "description": "Idlis tossed in ghee and Andhra-style karam podi (spice powder).",
+      "imageUrl": "https://deccanspice.us/wp-content/uploads/2023/10/ghee-idli-scaled.jpg"
+    },
+    {
+      "itemName": "Thatte Idly (2)",
+      "quantity": 2,
+      "price": 6.99,
+      "description": "A large, soft, and fluffy idly steamed in a flat plate (thatte) served with sambar and chutney.",
+      "imageUrl": "https://i.ytimg.com/vi/pKqqY9VeKdM/sddefault.jpg"
+    },
+    {
+      "itemName": "Sambar Idly (3)",
+      "quantity": 3,
+      "price": 6.99,
+      "description": "Soft idlis soaked in spicy lentil vegetable stew (sambar).",
+      "imageUrl": "https://images.unsplash.com/photo-1670432320633-08b1959aa883?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    }
+  ],
+  "dosa_menu": [
+    {
+      "itemName": "Plain Dosa / Plain Karaam Dosa",
+      "quantity": 1,
+      "price": 7.99,
+      "description": "Crispy thin crepe made from fermented rice and lentil batter/ Dosa coated with spicy karam podi.",
+      "imageUrl": "https://images.unsplash.com/photo-1743517894265-c86ab035adef?q=80&w=1082&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "itemName": "Ghee Roast Dosa / Ghee Kaaram Dosa",
+      "quantity": 1,
+      "price": 9.99,
+      "description": "Dosa coated with spicy karam podi and ghee.",
+      "imageUrl": "https://images.unsplash.com/photo-1694849789325-914b71ab4075?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "itemName": "Onion Dosa ",
+      "quantity": 1,
+      "price": 8.99,
+      "description": "Dosa topped with finely chopped onions and herbs.",
+      "imageUrl": "https://i.pinimg.com/564x/40/44/96/404496f23a3460b0c5e77cc833a181d0.jpg"
+    },
+    {
+      "itemName": "Masala Dosa",
+      "quantity": 1,
+      "price": 9.99,
+      "description": "Dosa filled with spiced mashed potato curry.",
+      "imageUrl": "https://media.istockphoto.com/id/2220390254/photo/crispy-masala-dosa-is-a-popular-south-indian-food-served-with-tomato-chutney-coconut-chutney.jpg?s=612x612&w=0&k=20&c=h72SS3QoSaUBd_enRS_7T8K6RRg9nCkTjLmnIOGq2S8="
+    },
+    {
+      "itemName": "Egg(2x) Dosa",
+      "quantity": 1,
+      "price": 9.99,
+      "description": "Dosa layered with beaten egg and light seasoning.",
+      "imageUrl": "https://thumbs.dreamstime.com/b/delicious-masala-dosa-sides-vibrant-generated-ai-south-indian-crepe-filled-spiced-potatoes-vegetables-served-383817116.jpg"
+    },
+    {
+      "itemName": "Double Egg(4x) Dosa",
+      "quantity": 1,
+      "price": 10.99,
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "itemName": "Pesarattu",
+      "quantity": 1,
+      "price": 8.99,
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "itemName": "Onion Pesarattu",
+      "quantity": 1,
+      "price": 9.99,
+      "description": "",
+      "imageUrl": ""
+    }
+  ],
+  "af_specials": [
+    {
+      "itemName": "Uthappam",
+      "quantity": 1,
+      "price": 6.99,
+      "description": "Thick dosa topped with vegetables like onions, chilies, & tomatoes.",
+      "imageUrl": "https://media.istockphoto.com/id/2227506292/photo/stock-photo-of-south-indian-dish-onion-dosa.jpg?s=612x612&w=0&k=20&c=mhNQ9X6tDAtb-s5zeFD3wfuFDqFZZp_9E4x1cXp7xNc="
+    },
+    {
+      "itemName": "Mysore Bonda (3)",
+      "quantity": 3,
+      "price": 5.99,
+      "description": "Fried urad dal dumplings with crispy golden crust.",
+      "imageUrl": "https://www.awesomecuisine.com/wp-content/uploads/2016/04/mysore-bonda.jpg"
+    },
+    {
+      "itemName": "Medu Vada (3)",
+      "quantity": 3,
+      "price": 6.99,
+      "description": "Crispy savory donuts made from urad dal.",
+      "imageUrl": "https://images.unsplash.com/photo-1730191843435-073792ba22bc?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dmFkYXxlbnwwfHwwfHx8MA%3D%3D"
+    },
+    {
+      "itemName": "Veg Paratha (2)",
+      "quantity": 2,
+      "price": 8.99,
+      "description": "Layered Indian flatbread, pan-fried with ghee or oil.",
+      "imageUrl": "https://images.unsplash.com/photo-1683533746199-9e3920bf3eab?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cGFyYXRoYXxlbnwwfHwwfHx8MA%3D%3D"
+    },
+    {
+      "itemName": "Chicken Parata(2)",
+      "quantity": 2,
+      "price": 10.99,
+      "description": "",
+      "imageUrl": ""
+    }
+  ],
+  "combos": [
+    {
+      "itemName": "Idly(2) , Vada(1)",
+      "quantity": "",
+      "price": 6.99,
+      "description": "A satisfying combination of soft idlis and crispy medu vada.",
+      "imageUrl": "https://media.istockphoto.com/id/2231225919/photo/delicious-south-indian-breakfast-food-idli-and-vada.jpg?s=612x612&w=0&k=20&c=nnK_BYfbfdt3oxAWuJrZKFQrr0DYIDW91rVZzBiCaQs="
+    },
+    {
+      "itemName": "Idly(2) , Dosa(1)",
+      "quantity": "",
+      "price": 9.99,
+      "description": "Perfect pairing of fluffy idlis and a crisp dosa.",
+      "imageUrl": "https://media.istockphoto.com/id/1369496623/photo/jowar-or-sorghum-idli-and-dosa-with-chutneys.jpg?s=612x612&w=0&k=20&c=7xwX0OVC-A3vdZGSIr_JNk3tG_l0lUtIkPEWpl_UO5U="
+    }
+  ],
+  "indian_street_food": [
+    {
+      "itemName": "Vijaywada Chitti Punugulu",
+      "quantity": "",
+      "price": 7.99,
+      "description": "Crispy fritters made from fermented dosa batter.",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7LX0sKtVBtI5t6U4-SyoSXnzdJM1uaRMyUA&s"
+    },
+    {
+      "itemName": "Mirchi Bajji (4)",
+      "quantity": 4,
+      "price": 7.99,
+      "description": "Green chilies dipped in besan batter and deep fried.",
+      "imageUrl": "https://media.istockphoto.com/id/2113913164/photo/indian-street-fried-food-spicy-chilli-pakora-its-a-popular-tea-time-snacks.jpg?s=612x612&w=0&k=20&c=cJawrFZ_leyF0NKS7Sk_N-KUCEvLpvxVZ2DM5w7aWp8="
+    },
+    {
+      "itemName": "Stuffed Mirchi Bajji (3)",
+      "quantity": 3,
+      "price": 8.99,
+      "description": "Chili fritters stuffed with tangy potato masala.",
+      "imageUrl": "https://media.istockphoto.com/id/1528894763/photo/stuffed-mirchi-bajji.jpg?s=612x612&w=0&k=20&c=ggtzPEpZS2SQSduFcAj546OYiBcMwSaWTm7MR-IM2s4="
+    },
+    {
+      "itemName": "Aloo Bajji (4)",
+      "quantity": 4,
+      "price": 6.99,
+      "description": "Sliced potato fritters, deep-fried until golden.",
+      "imageUrl": "https://art.whisk.com/image/upload/fl_progressive,h_560,w_560,c_fill,dpr_2/v1613066595/recipe/be3e96e99446baa51979a346a5319519.jpg"
+    },
+    {
+      "itemName": "Onion Pakodi",
+      "quantity": "",
+      "price": 5.99,
+      "description": "Crispy fritters made from onion and chickpea flour.",
+      "imageUrl": "https://media-cdn2.greatbritishchefs.com/media/nrniyevq/img16333.whqc_768x512q90fpt530fpl566.jpg"
+    },
+    {
+      "itemName": "Chicken Street Tacos (3)",
+      "quantity": 3,
+      "price": 7.99,
+      "description": "Soft corn tortillas filled with chicken, topped with onions, cilantro, and zesty salsa",
+      "imageUrl": "https://littlespicejar.com/wp-content/uploads/2017/04/Ancho-Chili-Chicken-Street-Tacos-2.jpg"
+    }
+  ],
+  "indo_chinese_street_food": [
+    {
+      "itemName": "Veg Fried Rice",
+      "quantity": "",
+      "price": 8.99,
+      "description": "Basmati rice stir-fried with vegetables & soy sauce.",
+      "imageUrl": "https://www.kannammacooks.com/wp-content/uploads/schezwan-veg-fried-rice-1.jpg"
+    },
+    {
+      "itemName": "Egg(2x) Fried Rice",
+      "quantity": "",
+      "price": 9.99,
+      "description": "Fried rice with vegetables & scrambled eggs.",
+      "imageUrl": "https://www.sharmispassions.com/wp-content/uploads/2013/04/EggFriedRice4-500x500.jpg"
+    },
+    {
+      "itemName": "Double Egg(4x) Fried Rice",
+      "quantity": "",
+      "price": 10.99,
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "itemName": "Chicken Fried Rice",
+      "quantity": "",
+      "price": 11.99,
+      "description": "Flavorful fried rice with spiced chicken pieces.",
+      "imageUrl": "https://www.kannammacooks.com/wp-content/uploads/street-style-chicken-rice-recipe-1-3.jpg"
+    },
+    {
+      "itemName": "Veg Noodles",
+      "quantity": "",
+      "price": 8.99,
+      "description": "Stir-fried noodles with mixed vegetables & Indo-Chinese seasoning.",
+      "imageUrl": "https://www.ohmyveg.co.uk/wp-content/webp-express/webp-images/uploads/2024/08/hakka-noodles.jpg.webp"
+    },
+    {
+      "itemName": "Egg(2x) Noodles",
+      "quantity": "",
+      "price": 9.99,
+      "description": "Noodles tossed with vegetables and scrambled eggs.",
+      "imageUrl": "https://telugu.cdn.zeenews.com/telugu/sites/default/files/2024/12/30/412973-untitled-design-11.jpg"
+    },
+    {
+      "itemName": "Double Egg(4x) Noodles",
+      "quantity": "",
+      "price": 10.99,
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "itemName": "Chicken Noodles",
+      "quantity": "",
+      "price": 11.99,
+      "description": "Stir-fried noodles with chicken and vegetables.",
+      "imageUrl": "https://omnivorescookbook.com/wp-content/uploads/2019/09/1403_15-Minute-Tomato-Egg-Noodles_550.jpg"
+    }
+  ],
+  "non_veg_appetizers": [
+    {
+      "itemName": "Chicken Pakodi",
+      "quantity": "",
+      "price": 9.99,
+      "description": "Spiced chicken fritters deep-fried to perfection.",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/59739d0ed2b857fb9af8f717/1601849260033-A668B5YN1OJQS7H3J0TO/girija-indian-fried-chicken.jpg"
+    },
+    {
+      "itemName": "Cashew Chicken Pakodi",
+      "quantity": "",
+      "price": 12.99,
+      "description": "Spiced chicken fritters with Cashews deep-fried to perfection.",
+      "imageUrl": "https://content.jdmagicbox.com/v2/comp/eluru/r4/9999p8812.8812.231208203337.s3r4/catalogue/kaju-chicken-pakodi-center-jangareddygudem-road-eluru-fast-food-zz1cedsxx3.jpg"
+    },
+    {
+      "itemName": "Tandoori Chicken Joints (2)",
+      "quantity": 2,
+      "price": 10.99,
+      "description": "Marinated and fried chicken leg joints.",
+      "imageUrl": "https://i.ytimg.com/vi/XVxGnN_7Htc/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBtTnVFTI-L8F_vuE8rWcxWV8vBLw"
+    }
+  ],
+  "chaat": [
+    {
+      "itemName": "Pani Puri (10)",
+      "quantity": 8,
+      "price": 5.99,
+      "description": "Crispy hollow puris filled with tangy spiced water and potato.",
+      "imageUrl": "https://i0.wp.com/myvegetarianroots.com/wp-content/uploads/2020/03/DSC_0244.jpeg?resize=768%2C1000&ssl=1"
+    },
+    {
+      "itemName": "Dahi Puri (6)",
+      "quantity": 6,
+      "price": 6.99,
+      "description": "Purified topped with yogurt, sweet chutney and spices.",
+      "imageUrl": "https://i0.wp.com/myvegetarianroots.com/wp-content/uploads/2020/03/DSC_0252.jpeg?resize=727%2C1024&ssl=1"
+    },
+    {
+      "itemName": "Pav Bhaji (2)",
+      "quantity": 2,
+      "price": 6.99,
+      "description": "Spiced mashed vegetables served with buttered, toasted Pav",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Bambayya_Pav_bhaji.jpg"
+    },
+    {
+      "itemName": "Masala Mixture (Bhel Puri)",
+      "quantity": "",
+      "price": 4.99,
+      "description": "Spiced crunchy mixture with peanuts and sev.",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1lK36ywXwhoKQEXhabY1-aBb9VRU7ZSXTRw&s"
+    }
+  ],
+  "milk_shakes": [
+    {
+      "itemName": "Chocolate Shake",
+      "quantity": "",
+      "price": 3.99,
+      "description": "Rich and creamy chocolate milkshake.",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvW9QNP2QJcdtlSad2YglnK0UcrBy4lZXR9g&s"
+    },
+    {
+      "itemName": "Oreo Shake",
+      "quantity": "",
+      "price": 4.99,
+      "description": "Blended Oreo cookies in a smooth vanilla shake.",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7LLUlRVueI9JORhMbKJWzed1SaSjwnq2-EQ&s"
+    },
+    {
+      "itemName": "Oreo Chocolate Shake",
+      "quantity": "",
+      "price": 5.99,
+      "description": "Chocolate milkshake with crushed Oreo cookies.",
+      "imageUrl": "https://yogaofcooking.co/wp-content/uploads/2020/07/oreo-milkshake-4.jpg"
+    },
+    {
+      "itemName": "",
+      "quantity": "",
+      "price": "",
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "itemName": "Sweet Lassi",
+      "quantity": "",
+      "price": 2.99,
+      "description": "Traditional sweet yogurt-based drink.",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIxz80rXVnWKqp55zm6HL4EZTpZkVBxf7c6w&s"
+    }
+  ],
+  "desserts": [
+    {
+      "itemName": "Double ka Meeta (Bread Halwa)",
+      "quantity": "",
+      "price": 4.99,
+      "description": "Hyderabadi dessert made from fried bread, milk, and dry fruits.",
+      "imageUrl": "https://i.ndtvimg.com/i/2016-02/bread-halwa-625_625x350_81454580988.jpg"
+    },
+    {
+      "itemName": "Gulab Jamun (3)",
+      "quantity": 3,
+      "price": 4.99,
+      "description": "Milk-solid balls soaked in rose flavored sugar syrup.",
+      "imageUrl": "https://static.toiimg.com/thumb/63799510.cms?imgsize=1091643&width=800&height=800"
+    },
+    {
+      "itemName": "Fruit Custard",
+      "quantity": "",
+      "price": 4.99,
+      "description": "A chilled dessert made with creamy vanilla-flavored custard mixed with a variety\nof seasonal fruits such as apples, bananas, grapes, and pomegranate — lightly\nsweet and refreshing.",
+      "imageUrl": "https://www.blendwithspices.com/wp-content/uploads/2016/02/fruit-custard-recipe.jpg"
+    },
+    {
+      "itemName": "Basundi/ Rabdi (Only Weekends)",
+      "quantity": "",
+      "price": 5.99,
+      "description": "A rich, creamy and Traditional Indian dessert made by simmering full-fat milk\nuntil thickened, flavored with cardamom, saffron, and garnished with chopped\ndry fruits",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9hg4JfJNaUseBchdxVL2060G-bLVzlHxFHA&s"
+    }
+  ],
+  "drinks_refreshers": [
+    {
+      "itemName": "Chai / Tea (Small)",
+      "quantity": "",
+      "price": 1.49,
+      "description": "Hyderabadi-style strong and sweet tea with milk.",
+      "imageUrl": "https://resize.indiatvnews.com/en/resize/newbucket/1200_-/2025/01/befunky-collage-2025-01-26t112507-1737870855.jpg"
+    },
+    {
+      "itemName": "Chai / Tea (Large)",
+      "quantity": "",
+      "price": 2.49,
+      "description": "Hyderabadi-style strong and sweet tea with milk.",
+      "imageUrl": "https://resize.indiatvnews.com/en/resize/newbucket/1200_-/2025/01/befunky-collage-2025-01-26t112507-1737870855.jpg"
+    },
+    {
+      "itemName": "Chai Biscuit(3) Combo",
+      "quantity": "",
+      "price": 3.25,
+      "description": "Any Chai served with 3 Osmania biscuits.",
+      "imageUrl": "https://media.istockphoto.com/id/1253001062/photo/cup-of-tea-on-wooden-table-with-butter-biscuits.jpg?s=612x612&w=0&k=20&c=L-1C4ra-CA3FIEIskm3IZyS58jxscyrswdGPFYR-UJM="
+    },
+    {
+      "itemName": "Lemon Soda",
+      "quantity": "",
+      "price": 1.99,
+      "description": "Freshly squeezed lemon in carbonated water with choice of salt or sugar.",
+      "imageUrl": "https://bakesbybrownsugar.com/wp-content/uploads/2023/01/Lemon-Soda-15C.jpg"
+    },
+    {
+      "itemName": "Mango Lassi",
+      "quantity": "",
+      "price": 3.99,
+      "description": "Sweet mango yogurt drink, served chilled.",
+      "imageUrl": "https://ingenium.ca/agriculture/wp-content/uploads/sites/3/2025/01/CAFM-Mango-Lassi-Picture_0-scaled.jpg"
+    },
+    {
+      "itemName": "Thumpsup",
+      "quantity": "",
+      "price": 1.99,
+      "description": "",
+      "imageUrl": "https://candybar.snackcrate.com/wp-content/uploads/2025/04/IN_Thums-Up-Original_PDP-min.png"
+    },
+    {
+      "itemName": "Coke",
+      "quantity": "",
+      "price": 1.49,
+      "description": "",
+      "imageUrl": "https://as2.ftcdn.net/jpg/02/94/25/61/1000_F_294256168_z4sxV8I9XXuQFL8mH9jRUxmkQFRmKnVA.jpg"
+    },
+    {
+      "itemName": "Limca",
+      "quantity": "",
+      "price": 1.49,
+      "description": "",
+      "imageUrl": "https://mir-s3-cdn-cf.behance.net/project_modules/disp_webp/813446159567639.63a1765015236.png"
+    },
+    {
+      "itemName": "Sprite",
+      "quantity": "",
+      "price": 1.49,
+      "description": "",
+      "imageUrl": "https://i.pinimg.com/736x/fc/d3/8e/fcd38e7ee690829fb8a7e9d39e1f3d80.jpg"
+    },
+    {
+      "itemName": "Water",
+      "quantity": "",
+      "price": 0.99,
+      "description": "Bottled drinking water.",
+      "imageUrl": "https://static.vecteezy.com/system/resources/thumbnails/040/254/813/small_2x/ai-generated-blue-bottle-of-mineral-water-in-water-splashes-photo.jpg"
+    }
+  ]
+}
