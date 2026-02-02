@@ -103,7 +103,7 @@
 "imageUrl": "https://media.istockphoto.com/id/2227506292/photo/stock-photo-of-south-indian-dish-onion-dosa.jpg?s=612x612&w=0&k=20&c=mhNQ9X6tDAtb-s5zeFD3wfuFDqFZZp_9E4x1cXp7xNc="
 },
 {
-"itemName": "Mysore Bonda (3)",
+"itemName": "Mysore Bonda (4)",
 "quantity": 4,
 "price": 7.99,
 "description": "Fried urad dal dumplings with crispy golden crust.",
@@ -305,14 +305,37 @@
 "imageUrl": "https://tiffycooks.com/wp-content/uploads/2023/09/188E6766-B4B4-48FB-80F9-9E7EBA5B6278-768x1024.jpg"
 }
 ],
-"chaat": [
+"non_veg_appetizers": [
 {
-"itemName": "Pani Puri (8)",
-"quantity": 8,
-"price": 5.99,
-"description": "Crispy hollow puris filled with tangy spiced water and potato.",
-"imageUrl": "https://i0.wp.com/myvegetarianroots.com/wp-content/uploads/2020/03/DSC_0244.jpeg?resize=768%2C1000&ssl=1"
+"itemName": "Chicken Pakodi",
+"quantity": "",
+"price": 10.99,
+"description": "Spiced chicken fritters deep-fried to perfection.",
+"imageUrl": "https://images.squarespace-cdn.com/content/v1/59739d0ed2b857fb9af8f717/1601849260033-A668B5YN1OJQS7H3J0TO/girija-indian-fried-chicken.jpg"
 },
+{
+"itemName": "Cashew Chicken Pakodi",
+"quantity": "",
+"price": 13.99,
+"description": "Spiced chicken fritters with Cashews deep-fried to perfection.",
+"imageUrl": "https://content.jdmagicbox.com/v2/comp/eluru/r4/9999p8812.8812.231208203337.s3r4/catalogue/kaju-chicken-pakodi-center-jangareddygudem-road-eluru-fast-food-zz1cedsxx3.jpg"
+},
+{
+"itemName": "Tandoori Chicken Leg Joints (2)",
+"quantity": 2,
+"price": 10.99,
+"description": "Marinated and fried chicken leg joints.",
+"imageUrl": "https://i.ytimg.com/vi/XVxGnN_7Htc/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBtTnVFTI-L8F_vuE8rWcxWV8vBLw"
+},
+{
+"itemName": "Chicken Street Tacos (3)",
+"quantity": 3,
+"price": 7.99,
+"description": "Soft corn tortillas filled with chicken, topped with onions, cilantro, and zesty salsa",
+"imageUrl": "https://littlespicejar.com/wp-content/uploads/2017/04/Ancho-Chili-Chicken-Street-Tacos-2.jpg"
+}
+],
+"chaat": [
 {
 "itemName": "Dahi Puri (6)",
 "quantity": 6,
